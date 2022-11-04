@@ -32,10 +32,6 @@ function getScrollPost() {
   return window.scrollY;
 }
 
-// function setScrollPost(pos) {
-//   window.scrollTo({top: pos})
-// }
-
 function scrollUpdate() {
   if (window.innerWidth > 760) {
     sliderWrap.style.overflow = 'hidden';

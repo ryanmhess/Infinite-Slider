@@ -37,7 +37,12 @@ body::-webkit-scrollbar {
   position: relative;
   flex: 1;
   overflow: hidden;
-  filter: grayscale(100%);
+  background-color: rgba(241, 179, 242, 50%);
+  border-radius: 80px;
+  border-color: #BFA78A;
+  top: 2.5%;
+  height: 95%;
+  /* filter: grayscale(100%); */
 }
 
 .img-div {
@@ -46,6 +51,8 @@ body::-webkit-scrollbar {
   left: 1%;
   width: 98%;
   height: 95%;
-  background-size: cover;
+  /* background-color: rgba(241, 179, 242, 50%); */
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
 }
